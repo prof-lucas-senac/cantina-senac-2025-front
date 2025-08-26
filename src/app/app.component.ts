@@ -11,3 +11,13 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'CantinaSenac';
 }
+
+var contador = 0;
+
+
+
+document.getElementById("botaoPrincipal").addEventListener("click", function(){
+    
+    contador += 1;
+    document.getElementById("cont").textContent= contador;    
+});
