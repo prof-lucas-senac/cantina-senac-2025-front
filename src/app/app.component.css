@@ -1,0 +1,16 @@
+header {
+    font-size: 60px;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center
+}
+
+button {
+    font-size: 60x;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center
+}
