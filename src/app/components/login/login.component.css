@@ -1,0 +1,19 @@
+.div-principal {
+    display: flex;
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.div-formulario {
+    background-color: blue;
+}
+.div-input{
+    background-color: aquamarine;
+}
+.div-formulario-inferior {
+    display: flex;
+    background-color: blueviolet;
+}
