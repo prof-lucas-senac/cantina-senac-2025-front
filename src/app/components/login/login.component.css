@@ -1,0 +1,25 @@
+.div-principal
+{
+    display:flex;
+    background-color: rgb(185, 185, 235);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-formulario
+{
+    background-color: rgb(175, 185, 200);
+}
+
+.div-input
+{
+    background-color: blueviolet;
+}
+
+.div-formulario-inferior
+{
+    display: flex;
+    background-color: blueviolet;
+}
