@@ -1,8 +1,22 @@
-form
+.principal
 {
-
+    display: flex;
+    background-color: azure;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
 }
-label
+.div-formulario
 {
-    font-size: 13.5px;
+    background-color: rgba(173, 190, 190, 0.774);
+}
+.div-input
+{
+    background-color:rgba(223, 250, 250, 0.637);
+}
+.div-formulario-inferior
+{
+    display: flex;
+    background-color:rgba(223, 250, 250, 0.637);
 }
