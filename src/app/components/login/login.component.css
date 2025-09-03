@@ -1,0 +1,21 @@
+.div-principal {
+    display: flex;
+    background-color: burlywood;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-formulario {
+    background-color: rgb(128, 88, 28);
+}
+
+.div-input {
+    background-color: wheat;
+}
+
+.div-formulario-inferior {
+    display: flex;
+    background-color: bisque;
+}
