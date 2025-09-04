@@ -1,21 +1,27 @@
 .div-principal {
-  display: flex;
-  background-color: aqua;
-  height: 100vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+/* background: linear-gradient(180deg, #f1f3f4 0%, #ffffff 100%);*/
+    background-color: #f1f3f4;
+    background-repeat: no-repeat;
+    margin: 0%;
 }
-
 .div-formulario {
-  background-color: purple;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
 }
-
 .div-input {
-  background-color: yellow;
+    margin-bottom: 20px;
 }
-
-.divformularioinferior {
-  display: flex;
-  background-color: blue;
+.div-formulario-baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
