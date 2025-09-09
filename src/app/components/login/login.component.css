@@ -1,21 +1,79 @@
 .div-principal {
     display: flex;
-    background-color: black;
+    background: linear-gradient(135deg, #000000 0%, #004d0d 100%);
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    font-size: 30px;
 }
 
 .div-formulario {
-    background-color: green;
+    background-color: rgba(121, 121, 121, 0.699);
+    margin-right: 25%;
+    width: 50%;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 12px 200px rgb(3, 97, 0);
+}
+
+.div-titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    margin-bottom: 2rem;
 }
 
 .div-input {
-    background-color: cadetblue;
+
+    margin-bottom: 2rem;
+
+}
+
+.div-input label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.div-input input {
+    width: 80%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
 }
 
 .div-formulario-inferior {
     display: flex;
-    background-color: crimson;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.div-lembrar-email {
+    display: flex;
+}
+
+.div-lembrar-email input {
+    margin-left: 0.3rem;
+}
+
+.div-button-entrar {
+    display : flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    scale: 1.5;
+}
+
+.div-cadastrar-se {
+    display: flex;
+    justify-content: center;
+    
+
+
 }
