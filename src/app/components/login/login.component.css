@@ -1,21 +1,69 @@
 .div-principal {
     display: flex;
-    background-color: rgb(172, 175, 169);
+    
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 .div-formulario{
-    background-color: grey;
+    background-color: rgb(180, 179, 179);
+    width: 40%;
+    height: 25em;
+    padding: 2rem;
+    border-radius: 1%;
 }
 
-.div-input{
-    background-color: brown;
+.div-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.div-input {
+    margin-bottom: 2em;
+}
+
+.div-input label {
+    display:block;
+    margin: 0.2rem;
+}
+
+.div-input input {
+width: 80%;
+border: none;
+border-radius: 0.2rem;
+padding: 0.2rem;
 }
 
 .div-formulario-inferior {
     display: flex;
-    background-color: chocolate;
+    justify-content: space-between;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.div-lembrar-email {
+    display: flex;
+}
+
+.div-lembrar-email input {
+    margin-right: 0.3rem;
+}
+
+.div-button-entrar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.div-cadastre-se {
+    display: flex;
+    justify-content: center;
 }
