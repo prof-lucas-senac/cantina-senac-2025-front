@@ -62,6 +62,14 @@ a{
     justify-content: center;
     margin-bottom: 1rem;
 }
+.div-button-entrar button{
+    height: 2rem;
+    width: 50%;
+    font-size: 16px;
+    border: none;
+    border-radius:0.5rem;
+    background-color: #bdb8bebe;
+}
 
 .div-cadastre-se{
     display: flex;
