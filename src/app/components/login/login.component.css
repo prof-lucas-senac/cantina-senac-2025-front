@@ -9,7 +9,7 @@
 .div-formulario {
     margin-right: 150px;
     background-color: #e8e0eb;
-    width: 40%;
+    width: 35%;
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -17,7 +17,7 @@
 .div-titulo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 2rem;
 }
 
