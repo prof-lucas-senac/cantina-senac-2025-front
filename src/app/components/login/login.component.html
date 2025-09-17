@@ -1,10 +1,12 @@
 <div class="div-principal">
     <div class="div-formulario">
-        <h1>Seja bem-vind&#64; à Cantina Senac</h1>
+        <div class="div-titulo">
+            <h1>Seja bem-vind&#64; à Cantina Senac</h1>
+        </div>
         <form>
             <div class="div-input">
                 <label for="email">E-mail SENAC:</label>
-                <input type="email" id="email" placeholer="email@senac.com">
+                <input type="email" id="email" placeholder="email@senac.com" />
             </div>
 
             <div class="div-input">
@@ -13,13 +15,17 @@
             </div>
         </form>
         <div class="div-formulario-inferior">
-            <div>
+            <div class="div-lembrar-email">
                 <input type="checkbox" id="lembrarEmail">
                 <label for="lembrarEmail">Lembre meu E-mail</label>
             </div>
             <a class="formulario" href="#">Esqueci minha senha</a>
         </div>
-        <button>Entrar</button>
-        <a href="#">Ou Cadastre-se</a>
+        <div class="div-button-entrar">
+            <button routerLink="/feedback">Entrar</button>
+        </div>
+        <div class="div-cadastre-se">
+            <a href="#">Ou Cadastre-se</a>
+        </div>
     </div>
 </div>
