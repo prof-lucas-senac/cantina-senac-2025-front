@@ -4,7 +4,7 @@
     width: 100%;
     align-items: center;
     justify-content: flex-end;
-    font-size: 30px;
+
 }
 
 .div-formulario {
@@ -12,7 +12,30 @@
     width: 40%;
     margin-right: 10%;
     padding: 2rem;
-    border-radius: 0.5rem;
+
+}
+
+.div-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.div-input {
+    margin-bottom: 2rem;
+}
+
+.div-input label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.div-input input {
+    width: 80%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
 }
 
 
@@ -20,11 +43,15 @@
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 1rem;
-
+    margin-bottom: 2rem;
 }
 
-.div-lembrar-email{
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.div-lembrar-email {
     display: flex;
 
 }
@@ -34,50 +61,26 @@
 }
 
 
-.div-formulario-inferior a {
-    text-decoration: none;
-    color: black;
-
-}
-
 .div-button-entrar {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+
 }
 
+.div-button-entrar button {
+    width: 50%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background-color: #0a0d0a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-.div-cadastre-se{
+.div-cadastre-se {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
-    color: black;
 }
-
-
-
-
-.div-titulo {
-   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-.div-input label {
-  display: block;
-  margin-bottom: 0.02rem;
-}
-
-.div-input input {
-  width: 80%;
-  border: none;
-  border-radius: 0.2rem;
-  padding : 0.5rem;
-}
-
-.div-input {
-  margin-bottom: 2rem;
-}
-
 
