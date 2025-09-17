@@ -14,23 +14,23 @@
     border-radius: 1rem;
 }
 
-.div-titulo{
+.div-titulo {
     display: flex;
     align-items: center;
     justify-content: left;
     margin-bottom: 2rem;
 }
 
-.div-input{
+.div-input {
     margin-bottom: 2rem;
 }
 
-.div-input label{
+.div-input label {
     display: block;
-    margin-bottom :0.2rem;
+    margin-bottom: 0.2rem;
 }
 
-.div-input input{
+.div-input input {
     width: 80%;
     border: none;
     border-radius: 0.2rem;
@@ -44,34 +44,35 @@
     margin-bottom: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.div-lembrar-email{
+.div-lembrar-email {
     display: flex;
 }
 
-.div-lembrar-email input{
+.div-lembrar-email input {
     margin-right: 0.3rem;
 }
 
-.div-button-entrar{
+.div-button-entrar {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
 }
-.div-button-entrar button{
+
+.div-button-entrar button {
     height: 2rem;
     width: 50%;
     font-size: 16px;
     border: none;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     background-color: #bdb8bebe;
 }
 
-.div-cadastre-se{
+.div-cadastre-se {
     display: flex;
     justify-content: center;
 }
