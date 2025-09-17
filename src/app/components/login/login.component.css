@@ -73,6 +73,18 @@ a{
     margin-bottom: 1rem;
 }
 
+.div-button-entrar button:hover{
+    background-color: #d1d1e0;
+    cursor: pointer;
+    transform: scale(1.02);    /* leve aumento visual */
+    transition: all 0.2s ease-in-out;
+}
+
+.div-button-entrar button:active {
+    background-color: #bfbfd1; /* cor ao clicar */
+    transform: scale(0.98);    /* leve redução para simular clique */
+}
+
 .div-cadastra-se{
      display: flex;
     justify-content: center;
