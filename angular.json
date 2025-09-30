@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "dist/cantina-senac",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -92,11 +92,8 @@
         }
       }
     }
-<<<<<<< HEAD
   },
   "cli": {
     "analytics": false
-=======
->>>>>>> 507725bb9fe7a7e8a7eb25107847a72cc72a0e4c
   }
 }
