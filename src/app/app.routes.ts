@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { FeedbacksComponent } from './components/feedbacks/feedbacks.component';
 import { LoginComponent } from './components/login/login.component';
+import { FeedbacksComponent } from './components/feedbacks/feedbacks.component';
 
 export const routes: Routes = [
     {
-        path: 'login',
+        path: "login",
         component: LoginComponent
     },
     {

@@ -47,7 +47,6 @@
 .div-formulario-inferior {
     display: flex;
     justify-content: space-between;
-
 }
 
 a {
@@ -60,20 +59,17 @@ a {
 }
 
 .div-lembrar-email input {
-    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .div-button-entrar {
-    display : flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    scale: 1.5;
-}
-
-.div-cadastrar-se {
     display: flex;
     justify-content: center;
-    
-
-
+    margin-bottom: 1rem;
 }
+
+.div-cadastre-se {
+    display: flex;
+    justify-content: center;
+}
+
