@@ -13,9 +13,9 @@ export const routes: Routes = [
     component : FeedbacksComponent
   },
   {
-    path: " ",
+    path: "",
     redirectTo: "login",
     pathMatch: "full"
-  },
+  }
 
 ];
