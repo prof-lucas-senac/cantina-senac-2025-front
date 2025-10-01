@@ -5,11 +5,12 @@
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    background: linear-gradient(to bottom,#9898a7,#ffffff);
 }
 
 .div-formulario
 {
-    background-color: #9898a7;
+    background: linear-gradient(to bottom,#ffffff,#9898a7);
     width: 25%;
     margin-right: 25%;
     padding: 2rem;
@@ -85,7 +86,8 @@ a
 }
 .div-button-entrar button:hover
 {
-    background-color: green;
+    background-color: rgb(220, 65, 200);
+    transform: scale(1.2);
 }
 .div-cadastre-se
 {
