@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    /*cinza fraco*/
+    color: #000;
+}
+
+
+/*Cabeçalho*/
+.titulo-principal {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.titulo-cantina {
+  font-size: 36px;
+  margin: 0;
+}
+
+.titulo-secundario {
+  font-size: 48px;
+  color: #616451; /* ou outro tom desejado */
+  margin: 0;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDD;
+    /*cinza medio*/
+    padding: 10px;
+}
+
+.cabecalho-esquerda {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-cantina {
+  font-size: 24px;
+  margin: 0;
+}
+
+.titulo-senac {
+  font-size: 32px;
+  margin: 0;
+  color: #616451; /* ou outro destaque */
+}
+
+.cabecalho-centro {
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.cabecalho-direita {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    background-color: #999;
+    /*cinza forte*/
+    border-radius: 50%;
+}
+
+.info-perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-perfil span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.info-perfil a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Mural de Feedbacks */
+
+.mural {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Container de feedback */
+
+.conteiner-feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.feedback {
+    background-color: #DDD;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+}
+
+.foto-feedback {
+    width: 60px;
+    height: 60px;
+    background-color: #999;
+    /*cinza forte*/
+    border-radius: 50%;
+}
+
+.conteudo-feedback {
+    flex-grow: 1;
+}
+
+.conteudo-feedback h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.conteudo-feedback p {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.rodape-feedback {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.botao-adicionar {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #f5e6b3; /* bege puxando para amarelo fraco */
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 999; /* sobrepõe todos os elementos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.botao-adicionar:hover {
+  transform: scale(1.1);
+}
