@@ -1,0 +1,80 @@
+
+.div-principal {
+
+    height: 100vh;
+    width: 100%;
+}
+header{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: grey;
+}
+.div-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 1600px;
+}
+.div-logo{
+    display: flex;
+    width: 8%;
+    font-size: 20px;
+}
+.div-logo p{
+    text-align: center;
+}
+.palavra-destacada{
+    font-size: 26px;
+}
+.div-titulo{
+    display: flex;
+    width: 22%;
+    font-size: 20px;
+}
+.div-titulo p{
+    text-align: center;
+}
+.div-perfil{
+    display: flex;
+    width: 12%;
+}
+.div-fotoPerfil{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background-color: rgb(73, 73, 73);
+    margin: 3px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.div-inicio{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-avatar{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-avatar span{
+    font-size: 5em;
+}
