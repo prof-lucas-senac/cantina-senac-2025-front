@@ -1,0 +1,44 @@
+.div-esquerda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.div-centro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-direita {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.btn-avatar {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-avatar span {
+    font-size: 5em;
+}
