@@ -1,0 +1,15 @@
+.btn-avatar {
+height: 6em;
+width: 6em;
+border-radius: 50%;
+position: fixed;
+bottom: 2em;
+right: 2em;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btn-avatar span {
+    font-size: 5em;
+}
