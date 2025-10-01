@@ -1,0 +1,38 @@
+header {
+    background: #ada9a9;
+    font-size: 20px;
+}
+.btn-cinza {
+      width: 3em;
+      height: 3em;
+      background-color: #808080;
+      border-radius: 50%; 
+}
+#btn-avatar-bottom {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#perfil {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+#mural {
+   
+    text-align: center;
+}
+#compartilhe {
+   
+}
+
+.caixinha_feedback {
+    background-color: #ada9a9;
+}
+
