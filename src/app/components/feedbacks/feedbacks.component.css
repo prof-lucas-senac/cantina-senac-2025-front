@@ -1,0 +1,94 @@
+.pagina {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: rgb(180, 179, 179);
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logo h2 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.frase {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.foto {
+  width: 40px;
+  height: 40px;
+  background: rgb(171, 171, 171);
+  border-radius: 50%;
+}
+
+.nome-usuario {
+  font-weight: bold;
+}
+
+.titulo-mural {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.caixa-feedback {
+  background: rgb(180, 179, 179);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  background: rgb(136, 136, 136);
+  border-radius: 50%;
+}
+
+.texto {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+}
+
+.qrcode-pix {
+    position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;  
+  height: 80px;  
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
