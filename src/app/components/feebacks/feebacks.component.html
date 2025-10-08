@@ -1,45 +1,25 @@
 <div class="div-principal">
     <header class="cabecalho">
-        <h2>Cantina Senac</h2>
-        <h4>Compartilhe blablabla</h4>
+        <div id="div-header-titulo">
+        <h2>Cantina</h2>
+        <h1>SENAC</h1>
+        </div>
+        <div id="div-header-blablabla">
+        <h3>Compartilhe seus pensamentos</h3>
+        <h3>com seus colegas</h3>
+        </div>
         <div class="div-perfil">
-            <div class="BOLA"></div>
+            <button class="BOLA"></button>
             <div class="div-bola-fortatacao">
-                <h5>PERFIFIFLFIL</h5>
-                <p>Editar</p>
+                <h4>PERFIFIFLFIL</h4>
+                <a href="feedback">Editar</a>
             </div>
         </div>
     </header>
-    <section class="sec-comentarios">
-        <h3>Mural de Feedbacks</h3>
-        <article class="art-comentario">
-            <div class="BOLA bola-comentarios"></div>
-            <div class="div-bola-fortatacao">
-                <h3>ARTIGIGIGI</h3>
-                <p>Lorem blablabla</p>
-                <span class="span-comentarios">? Comentários</span>
-                <span class="span-comentar">Comentar</span>
-            </div>
-        </article>
-        <article class="art-comentario">
-            <div class="BOLA bola-comentarios"></div>
-            <div class="div-bola-fortatacao">
-                <h3>ARTIGIGIGI</h3>
-                <p>Lorem blablabla</p>
-                <span class="span-comentarios">? Comentários</span>
-                <span class="span-comentar">Comentar</span>
-            </div>
-        </article>
-        <article class="art-comentario">
-            <div class="BOLA bola-comentarios"></div>
-            <div class="div-bola-fortatacao">
-                <h3>ARTIGIGIGI</h3>
-                <p>Lorem blablabla</p>
-                <span class="span-comentarios">? Comentários</span>
-                <span class="span-comentar">Comentar</span>
-            </div>
-        </article>
-    </section>
+    <main class="sec-comentarios">
+        <h3 id="mural-feedbacks">Mural de Feedbacks</h3>
+        <app-card-feedback id="app-card-feedback"></app-card-feedback>
+    </main>
     <button class="btn-avatar">
         <span>+</span>
     </button>
