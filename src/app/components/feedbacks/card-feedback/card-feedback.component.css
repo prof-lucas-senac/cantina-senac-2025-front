@@ -1,0 +1,47 @@
+/* 🧾 Lista de Feedbacks */
+section.conteiner-feedbacks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding:0 20px 20px;
+}
+
+/* 📄 Cada Feedback */
+article.feedback {
+  background-color: #DDD;
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+}
+
+.foto-feedback {
+  width: 60px;
+  height: 60px;
+  background-color: #999; /* cinza forte */
+  border-radius: 50%;
+}
+
+.conteudo-feedback {
+  width: 95%;
+  padding: 0 20px;
+}
+
+.conteudo-feedback h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.conteudo-feedback p {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+
+/* 🦶 Rodapé do Feedback */
+footer.rodape-feedback {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+}
