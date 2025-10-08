@@ -6,7 +6,7 @@ import { FeedbacksComponent } from './components/feedbacks/feedbacks.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, FeedbacksComponent],
+  imports: [RouterOutlet, LoginComponent, FeedbacksComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

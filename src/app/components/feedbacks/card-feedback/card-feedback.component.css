@@ -1,0 +1,26 @@
+section {
+    margin: 1em;
+    padding: 0.8em;
+    display: flex;
+    border-radius: 0.3em;
+    background-color: lightgray;
+
+}
+
+section button {
+    margin-right: 0.7em;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+section p {
+    text-align: justify;
+    margin: 0.2em 0;
+}
+
+.div-feedback-comentarios {
+    display: flex;
+    justify-content: space-between;
+}
