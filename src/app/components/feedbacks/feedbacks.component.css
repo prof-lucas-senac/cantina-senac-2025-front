@@ -1,198 +1,64 @@
-/* Variáveis para cores */
-:root {
-    --primary-blue: #5a86ec;
-    --primary-orange: #f99049;
-    --card-bg: #f1eeee;
-    --text-color: #3b3434;
-    --light-text: #252020;
-    --border-color: #ec0b0b;
-    --teste-color: #3b3434;
-}
-
-/* Container Principal (A "tela" do app) */
-.page-container {
-    width: 100%; /* Ajustado para se adequar ao componente */
-    max-width: 700px;
-    margin: 20px auto; /* Centraliza o componente na tela */
-    background-color: rgb(247, 244, 244);
-    box-shadow: 0 0 15px rgba(150, 146, 146, 0.226);
-    font-family: sans-serif; /* Incluído aqui, já que não temos o estilo global 'body' */
-
-    /* Simulação da Moldura da Imagem */
-    border: 15px solid var(--primary-blue);
-    border-top: 15px solid var(--primary-orange);
-    border-right: 15px solid var(--primary-orange);
-    padding: 20px;
-    position: relative;
-    overflow-y: auto;
-    max-height: 85vh; /* Altura máxima para o componente */
-}
-
-/* --- Cabeçalho (Top Bar) --- */
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.logo-text {
-    font-size: 1.2em;
-    font-weight: lighter;
-    color: var(--text-color);
-}
-.logo-text2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.share-area {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 0.9em;
-    color: var(--light-text);
-}
-
-.profile-area {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.profile-info {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    font-size: 0.8em;
-}
-
-.username {
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.edit-profile {
-    color: var(--light-text);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.avatar-placeholder {
-    width: 30px;
-    height: 30px;
+button {
+    height: 5em;
+    width: 5em;
     border-radius: 50%;
-    background-color: var(--border-color);
+    aspect-ratio: 1/1;
 }
 
-/* --- Título Principal --- */
-.main-title {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: normal;
-    margin: 20px 0;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 10px;
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    background-color: #69635e;
 }
 
-/* --- Cards de Feedback --- */
-.feedbacks-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding-bottom: 50px;
-}
-
-.feedback-card { /*box sob texto*/
-    background-color: var(--teste-color);
-    padding: 15px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 0 2px 4px rgb(165, 162, 162);
-}
-
-.user-info {
+#div-header-frase-efeito {
     display: flex;
     align-items: center;
-    gap: 15px;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: var(--text-color);
-    margin-bottom: 10px; /* Aumentado para 10px */
+    flex-direction: column;
+    font-size: 1.3em;
 }
 
-.avatar-placeholder.large {
-    width: 50px;
-    height: 50px;
+#div-header-avatar {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: end;
 }
 
-.feedback-content p {
+#div-header-avatar button {
     
-    /* Manter a legibilidade */
-    font-size: 0.95em;
-    line-height: 1.4; /* Importante para o espaçamento entre as linhas */
-    color: var(--text-color);
-    margin: 0;
-    padding-left: 65px;
-    font-style: italic;
-    margin-top: -10px;
-
-    /* Controle de Quebra de Linha em palavras longas */
-    word-wrap: break-word; 
-    overflow-wrap: break-word; /* Versão moderna de 'word-wrap' */
-    white-space: pre-wrap;
-
+    margin-right: 0.7em ;
 }
 
-.card-footer {
+#div-header-avatar a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    font-size: 0.85em;
-    color: var(--light-text);
-    padding-left: 65px;
-    padding-top: 5px;
 }
 
-.comment-button {
-    background: none;
-    border: none;
-    color: var(--light-text);
-    cursor: pointer;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 3px;
-    transition: color 0.2s;
+main h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
-.comment-button:hover {
-    color: var(--primary-blue);
-}
-
-/* --- Botão Flutuante (Adicionar) --- */
-.floating-button {
+.btn-avatar{
     position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--primary-orange);
-    color: rgb(199, 76, 76);
-    border: none;
-    font-size: 3em;
+    bottom: 2em;
+    right: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(53, 51, 51, 0.274);
-    z-index: 10;
-    transition: background-color 0.2s;
 }
 
-.floating-button:hover {
-    background-color: #69635e;
+.btn-avatar span {
+    font-size: 5em;
 }

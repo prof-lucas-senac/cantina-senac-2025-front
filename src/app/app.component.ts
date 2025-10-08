@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import {FeedbacksComponent} from './components/feedbacks/feedbacks.component';
+import { CarFeedbackComponent } from './components/feedbacks/car-feedback/car-feedback.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, FeedbacksComponent],
+  imports: [RouterOutlet, LoginComponent, FeedbacksComponent, CarFeedbackComponent],
   templateUrl: './app.component.html', 
   styleUrl: './app.component.css'
 })
