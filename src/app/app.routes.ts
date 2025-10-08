@@ -10,7 +10,7 @@ export const routes: Routes = [
     },
     {
         path:"feedbacks",
-        component:FeedbacksComponent
+        component:FeedbacksComponent,
     },
     {
         path: "",

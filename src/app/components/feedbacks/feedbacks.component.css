@@ -86,49 +86,6 @@
 }
 
 
-.div-lista-feedbacks {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 0 20px 80px 20px; 
-  flex: 1; 
-  overflow-y: auto; 
-}
-
-
-.div-feedback-card {
-  display: flex;
-  gap: 10px;
-  background: rgb(216, 216, 216);
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-.div-feedback-conteudo {
-  flex: 1;
-}
-
-.feedback-usuario {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.feedback-usuario:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.feedback-texto {
-  font-style: italic;
-  color: #444;
-}
-.div-feedback-inferior {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  margin-top: 5px;
-}
-
-
 .btn-flutuante {
   position: fixed;
   bottom: 20px;
