@@ -1,0 +1,56 @@
+.mural-feedbacks
+{
+    background-color: #9898a7;
+    display: flex;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 1rem;
+}
+.feedback
+{
+    display: flex;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+.div-foto-feedback
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #81818b;
+    flex-shrink: 0;
+    cursor: pointer;
+    border: none;
+}
+.div-conteudo-feedback
+{
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+    word-break: break-all;
+}
+.comentario-feedback
+{
+    margin-right: 5rem;
+}
+.div-botoes
+{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+.div-botoes a
+{
+    text-decoration: none;
+    color: black;
+}
+.botao-comentarios,
+.botao-comentar
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
