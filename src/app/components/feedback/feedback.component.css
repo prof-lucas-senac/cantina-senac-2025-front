@@ -1,36 +1,55 @@
-.div-esquerda {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #ccc;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    justify-content: space-between;
-}
-
-.div-centro {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.div-direita {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-}
-
-.btn-avatar {
+button {
     height: 5em;
     width: 5em;
     border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    background-color: gray;
+}
+
+#div-header-frase-efeito {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+#div-header-avatar {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#div-header-avatar button {
+   
+    margin: 0.7em;
+}
+
+#div-header-avatar a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.btn-avatar {
     position: fixed;
     bottom: 2em;
     right: 2em;
