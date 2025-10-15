@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CarFeedbackComponent } from './car-feedback/car-feedback.component';
+import { CardFeedbackComponent } from './card-feedback/card-feedback.component';
 
 @Component({
   selector: 'app-feedbacks',
   standalone: true,
-  imports: [CarFeedbackComponent],
+  imports: [CardFeedbackComponent],
   templateUrl: './feedbacks.component.html',
   styleUrl: './feedbacks.component.css'
 })
