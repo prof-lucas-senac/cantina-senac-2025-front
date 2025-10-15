@@ -7,13 +7,12 @@
             </button>
         </div>
         <div class="div-feedback-conteudo">
-          <p class="feedback-usuario">SheldonCooper</p>
+          <p class="feedback-usuario">{{feedback.nomeUsuario}}</p>
           <p class="feedback-texto">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at mauris in elit
-            condimentum maximus. Vestibulum nisi felis, volutpat ut porta non, posuere a tellus”
-          </p>
+            {{feedback.descricao}}
+          </p> 
           <div class="div-feedback-inferior">
-            <span>3 Comentários</span>
+            <span>{{feedback.numComentarios}} Comentários</span>
             <a href="#">Comentar</a>
           </div>
         </div>
