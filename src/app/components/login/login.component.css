@@ -59,17 +59,20 @@ a {
 }
 
 .div-lembrar-email input {
-    margin-right: 0.3rem;
+    margin-left: 0.3rem;
 }
 
 .div-button-entrar {
-    display: flex;
+    display : flex;
     justify-content: center;
     margin-bottom: 1rem;
+    scale: 1.5;
 }
 
-.div-cadastre-se {
+.div-cadastrar-se {
     display: flex;
     justify-content: center;
-}
+    
 
+
+}
