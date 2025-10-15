@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Feedback } from './feedback';
 
 @Component({
   selector: 'app-card-feedback',
@@ -9,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class CardFeedbackComponent {
 
+  feedback : Feedback = {
+    nomeUsuario: "Ric",
+    descricao: "descrição",
+    numComentarios: 0
+  }
 }

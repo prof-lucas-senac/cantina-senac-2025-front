@@ -12,6 +12,7 @@ section {
     background-color: lightgray;
     border-radius: 0.3em;
     justify-content: space-between;
+    width: 95%;
 }
 
 section p {
