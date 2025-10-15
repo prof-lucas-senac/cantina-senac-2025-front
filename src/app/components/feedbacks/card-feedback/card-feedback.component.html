@@ -1,15 +1,12 @@
 <section>
         <button></button>
         <div class="div-feedback">
-            <h3>Nome do Usuario</h3>
+            <h3>{{ feedback.nomeUsuario }}</h3>
             <p class="div-feedback-descricao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Unde quis voluptates repellendus non voluptatum iusto nam 
-                asperiores explicabo vel praesentium! Iste alias eveniet 
-                dicta, saepe quidem perferendis laborum dolorem fuga.
+                {{ feedback.descricao }}
             </p>
             <div class="div-feedback-comentarios">
-                <a href="javascript:void(0)">3 Comentário(s)</a>
+                <a href="javascript:void(0)">{{ feedback.numComentarios }} Comentário(s)</a>
                 <a href="javascript:void(0)">Comentar</a>
             </div>
         </div>

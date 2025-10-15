@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Feedback } from './feedback';
 
 @Component({
   selector: 'app-card-feedback',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
   templateUrl: './card-feedback.component.html',
   styleUrl: './card-feedback.component.css'
 })
-export class CardFeedbackComponent {
 
+export class CardFeedbackComponent {
+  feedback : Feedback = {
+    descricao : "Descrição",
+    nomeUsuario : "NomeDoUsuario",
+    numComentarios: 5
+  }
 }

@@ -24,3 +24,10 @@ section p {
     display: flex;
     justify-content: space-between;
 }
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
