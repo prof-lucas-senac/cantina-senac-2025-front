@@ -1,8 +1,55 @@
-.btn-avatar {
-    /* color:white; */
+button {
     height: 5em;
     width: 5em;
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    background-color: gray;
+}
+
+#div-header-frase-efeito {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+#div-header-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#div-header-avatar button {
+    margin-right: 0.7em;
+}
+
+#div-header-avatar a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.btn-avatar {
     position: fixed;
     bottom: 2em;
     right: 2em;
