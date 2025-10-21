@@ -1,66 +1,24 @@
-<div class="pagina">
-
-    <div class="topo">
-
-        <div class="logo">
-            <h2>Cantina</h2>
-            <h1>Senac</h1>
-        </div>
-
-        <div class="frase">
-            <p>Compartilhe seus pensamentos<br>com seus colegas</p>
-        </div>
-
-        <div class="perfil">
-
-            <div class="foto"></div>
-
-            <div>
-                <p class="nome-usuario">Guilherme10</p>
-                <a href="#">Editar Perfil</a>
-            </div>
-
-        </div>
-
+<header>
+    <div id="div-header-logo">
+        <h2>Cantina</h2>
+        <h1>SENAC</h1>
     </div>
- 
-    <h2 class="titulo-mural">Mural de Feedbacks</h2>
- 
- <app-card-feedback></app-card-feedback>
- 
-    <div class="caixa-feedback">
-
-        <div class="usuario">
-            <div class="icone"></div>
-            <h3>Marcos69</h3>
-        </div>
-
-        <p class="texto">
-            “Eu tinha tudo pra ser um ótimo jogador de futebol se não fosse as drogas... as drogas das pernas”
-        </p>
-
-        <div class="rodape">
-            <span>10 Comentários</span>
-            <a href="#">Comentar</a>
-        </div>
-
+    <div id="div-header-frase-efeito">
+        <p>Compartilhe seus pensamentos</p>
+        <p>com seus colegas</p>
     </div>
- 
-    <div class="caixa-feedback">
-
-        <div class="usuario">
-            <div class="icone"></div>
-            <h3>Guilherme10</h3>
+    <div id="div-header-avatar">
+        <button id="button-avatar"></button>
+        <div id="div-header-avatar-nome">
+            <h3>Nome Perfil</h3>
+            <a href="javascript:void(0)">Editar perfil</a>
         </div>
-
-        <p class="texto">
-            “Nada ta tão ruim que não possa piorar”
-        </p>
-
-        <div class="rodape">
-            <span>18 Comentários</span>
-            <a href="#">Comentar</a>
-        </div>
- 
     </div>
- 
+</header>
+<main>
+    <h2>Mural de Feedbacks</h2>
+    <app-card-feedback></app-card-feedback>
+</main>
+<button class="btn-avatar">
+    <span>+</span>
+</button>
