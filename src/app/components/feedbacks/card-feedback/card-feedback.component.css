@@ -25,3 +25,7 @@ section p {
     display: flex;
     justify-content: space-between;
 }
+
+.div-feedback {
+  width: 100%;
+}
