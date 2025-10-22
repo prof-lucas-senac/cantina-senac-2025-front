@@ -29,4 +29,5 @@ section p {
 .div-feedback-comentarios {
     display: flex;
     justify-content: space-between;
+    gap: 1430px;
 }

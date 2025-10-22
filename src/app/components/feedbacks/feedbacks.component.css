@@ -35,7 +35,9 @@ main{
 main h2{
     margin: 0.5em 0;
 }
-
+.div-feedbacks{
+    width: 100%;
+}
 .btn-avatar{
     position: fixed;
     bottom: 40px;
