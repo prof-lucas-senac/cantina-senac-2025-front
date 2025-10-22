@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Feedback } from './feedback';
 
 @Component({
@@ -8,10 +8,12 @@ import { Feedback } from './feedback';
   templateUrl: './card-feedback.component.html',
   styleUrl: './card-feedback.component.css'
 })
-export class CardFeedbackComponent {
+export class CardFeedbackComponent
+{
+  @Input()
   feedback : Feedback = {
-        nomeUsuario : "Samuel H",
-        descricao : "Tudo top guri asljdhkajsdh asdjhkasjdhaskjkd askjdhakjsdhjkas daskjdhkasja asjkdhaskjdhkajssdadsa",
-        numComentario : 3
+        nomeUsuario : "",
+        descricao : "",
+        numComentario : 0
     }
 }

@@ -27,5 +27,7 @@
     <button class="div-botao-add-feedback">
         <span>+</span>
     </button>
-    <app-card-feedback></app-card-feedback>
+    <div *ngFor="let feedback of feedbacks">
+        <app-card-feedback [feedback]="feedback"></app-card-feedback>
+    </div>
 </div>
