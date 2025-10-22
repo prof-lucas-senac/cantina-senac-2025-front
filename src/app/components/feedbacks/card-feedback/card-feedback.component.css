@@ -44,3 +44,7 @@
 .rodape a:hover {
   background: rgba(255, 255, 255, 0.5);
 }
+
+.div.feedbacks {
+  width: 100%;
+}
