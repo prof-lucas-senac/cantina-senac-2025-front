@@ -31,9 +31,11 @@ section p {
     margin-bottom: 0.2em;
 }
 
+.div-feedback {
+    width: 100%;
+}
+
 .div-feedback-comentarios {
     display: flex;
     justify-content: space-between;
-    
-    
 }
