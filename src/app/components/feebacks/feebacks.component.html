@@ -18,7 +18,9 @@
     </header>
     <main class="sec-comentarios">
         <h3 id="mural-feedbacks">Mural de Feedbacks</h3>
-        <app-card-feedback></app-card-feedback>
+        <div *ngFor="let feedback of feedbacks" id="cards-feedbacks">
+            <app-card-feedback [feedback]="feedback"></app-card-feedback>
+        </div>
     </main>
     <button class="btn-avatar">
         <span>+</span>
