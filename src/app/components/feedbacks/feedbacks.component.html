@@ -17,7 +17,15 @@
 </header>
 <main>
     <h2>Mural de Feedbacks</h2>
-    <app-card-feedback></app-card-feedback>
+    <div id="div-feedbacks"*ngFor="let feedback of feedbacks">
+
+    <app-card-feedback [feedback]="feedback"></app-card-feedback>
+    </div>
+
+
+
+
+
 </main>
 <button class="btn-avatar">
     <span>+</span>
