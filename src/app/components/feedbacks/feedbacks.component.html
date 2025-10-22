@@ -25,4 +25,7 @@
   <button class="botao-adicionar" aria-label="Adicionar novo feedback">+</button>
 </aside>
 
-<app-card-feedback></app-card-feedback>
+
+<div *ngFor="let feedback of feedbacks">
+  <app-card-feedback [feedback] = "feedback"></app-card-feedback>
+</div>
