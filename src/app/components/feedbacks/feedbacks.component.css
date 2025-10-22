@@ -1,11 +1,10 @@
-button
-{
+button {
     height: 5em;
     width: 5em;
     border-radius: 50%;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -22,20 +21,17 @@ header{
     font-size: 1.3em;
 }
 
-#div-header-avatar
-{
+#div-header-avatar {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-#div-header-avatar button 
-{
+#div-header-avatar button {
     padding-right: 0.7em;
 }
 
-#div-header-avatar a
-{
+#div-header-avatar a {
     text-decoration: none;
     color: black;
 
@@ -66,8 +62,13 @@ main h2 {
     align-items: center;
     justify-content: center;
 }
+
 .btn-avatar span {
     font-size: 5em;
 
+}
+
+.div-feedbacks {
+    width: 100%;
 }
 
