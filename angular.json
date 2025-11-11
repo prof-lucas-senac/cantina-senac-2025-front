@@ -57,6 +57,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
               "buildTarget": "CantinaSenac:build:production"
@@ -66,6 +69,7 @@
             }
           },
           "defaultConfiguration": "development"
+          
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
@@ -92,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CardFeedbackComponent } from "./card-feedback/card-feedback.component";
 import { Feedback } from './card-feedback/feedback';
 import { NgFor } from '../../../../node_modules/@angular/common';
-import { httpclient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-feedbacks',
@@ -12,5 +12,13 @@ import { httpclient } from '@angular/common/http';
   styleUrl: './feedbacks.component.css'
 })
 export class FeedbacksComponent {
-  feedbacks : Feedback[] = [ ];
+  feedbacks: Feedback[] = [];
+
+  constructor(private http: HttpClient) { }
+
+  ngOnInit(): void {
+    this.http.get<Feedback[]>("http://localhost:4200/api/feedbacks")
+    .subscribe((feedbacks) => this.feedbacks = feedbacks);
+  }
+
 }
