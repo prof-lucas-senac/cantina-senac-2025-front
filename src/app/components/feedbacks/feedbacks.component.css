@@ -2,6 +2,7 @@ button {
     height: 5em;
     width: 5em;
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
     padding-top: 1em;
     padding-bottom: 1em;
     align-items: center;
-    background-color: #6d6d6d;
+    background-color: gray;
 }
 
 #div-header-frase-efeito {
@@ -28,47 +29,39 @@ header {
 }
 
 #div-header-avatar button {
-    padding-right: 0.7em;
+    margin-right: 0.7em;
 }
 
 #div-header-avatar a {
     text-decoration: none;
     color: black;
-
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 100%;
 }
-
 
 main h2 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
-
 .btn-avatar {
-    color: white;
-    background-color: #00520e;
     position: fixed;
     bottom: 2em;
     right: 2em;
-    /* esses 3 ultimos mexem so no + do meio da bola(laele) */
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-avatar span {
     font-size: 5em;
-
 }
 
 .div-feedbacks {
     width: 100%;
 }
-

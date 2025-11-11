@@ -1,35 +1,27 @@
 <header>
     <div id="div-header-logo">
         <h2>Cantina</h2>
-        <h1>Senac</h1>
-
+        <h1>SENAC</h1>
     </div>
     <div id="div-header-frase-efeito">
-        <p>Compartilhe sua experiência!</p>
+        <p>Compartilhe seus pensamentos</p>
+        <p>com seus colegas</p>
     </div>
-
     <div id="div-header-avatar">
-        <button></button>
-        <div id="div-avatar-nome">
-            <h3>Nome do Usuário</h3>
-            <a href="editar-perfil">Editar Perfil</a>
+        <button id="button-avatar"></button>
+        <div id="div-header-avatar-nome">
+            <h3>Nome Perfil</h3>
+            <a href="javascript:void(0)">Editar perfil</a>
         </div>
-
     </div>
-
-    <button class="btn-avatar">
-        <span>+</span>
-    </button>
 </header>
 <main>
-
     <h2>Mural de Feedbacks</h2>
-    <div class=".div-feedbacks" *ngFor="let feedback of feedbacks">
+
+    <div class="div-feedbacks" *ngFor="let feedback of feedbacks">        
         <app-card-feedback [feedback]="feedback"></app-card-feedback>
-
     </div>
-
-    <button class="btn-avatar"></button>
-
-
 </main>
+<button class="btn-avatar">
+    <span>+</span>
+</button>

@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { CardFeedbackComponent } from './card-feedback/card-feedback.component';
+import { CardFeedbackComponent } from "./card-feedback/card-feedback.component";
 import { Feedback } from './card-feedback/feedback';
-import { NgFor } from '@angular/common';
+import { NgFor } from '../../../../node_modules/@angular/common';
+import { httpclient } from '@angular/common/http';
+
 @Component({
   selector: 'app-feedbacks',
   standalone: true,
@@ -10,17 +12,5 @@ import { NgFor } from '@angular/common';
   styleUrl: './feedbacks.component.css'
 })
 export class FeedbacksComponent {
-  feedbacks: Feedback[] = [
-    {
-      nomeUsuario: 'João Silva',
-      descricao: 'top demaize',
-      numComentarios: 3
-    },
-    {
-      nomeUsuario: 'cr7 ',
-      descricao: 'eu so o milior',
-      numComentarios: 6
-      
-    },
-  ];
+  feedbacks : Feedback[] = [ ];
 }
