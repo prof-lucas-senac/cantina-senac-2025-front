@@ -10,9 +10,9 @@ import { Feedback } from './Feedback';
 })
 export class CardFeedbackComponent {
 @Input()
-  feedback: Feedback = {
-    descricao: "Isto é um feedback",
-    nomeUsuario: "Jão",
-   numComentarios : 5
+  feedback : Feedback = {
+    descricao: "",
+    nomeUsuario: "",
+   numComentarios : 0
   }
 }
