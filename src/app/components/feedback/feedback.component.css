@@ -1,72 +1,31 @@
-button{
+button {
     height: 5em;
     width: 5em;
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
 }
 
-header{
-    display:  flex;
-    justify-content: space-between;
-    padding: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    align-items: center;
-}
-
-#div-header-frase-efeito{
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#div-header-avatar  {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-#adiv-header-avatar a{
-    text-decoration: none;
-    color: black
-}
-main{
-    display: flex;
-    flex-direction: column;
-}
-main h2{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-section{
+section {
     margin: 1em;
     padding: 0.8em;
     display: flex;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 0.3em;
+    justify-content: space-between;
+    width: 95%;
 }
-section p{
+
+section p {
     text-align: justify;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
 
-.div-feedback-comentarios{
+.div-feedback-comentarios {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.btn-avatar{
-    position: fixed;
-    bottom:  2em;
-    right: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.btn-avatar span{
-    font-size: 5em;
+.div-feedback {
+  width: 100%;
 }
