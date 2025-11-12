@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CardFeedbackComponent } from './card-feedback/card-feedback.component';
 import { NgFor } from '../../../../node_modules/@angular/common';
 import { Feedback } from './card-feedback/feedbacks';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-feedbacks',
@@ -12,19 +13,13 @@ import { Feedback } from './card-feedback/feedbacks';
 })
 export class FeedbacksComponent {
 
-  feedbacks : Feedback[] = [
-    {
-      descricao: "Agora Vai!!!",
-      nomeUsuario: "João",
-      numComentarios: 3
-    },
+  feedbacks : Feedback[] = [];
 
-    {
-      descricao: "Salve familia",
-      nomeUsuario: "Maria",
-      numComentarios: 5
-    }
-  ];
+  constructor (private http : HttpClient) {}
 
+  ngOnInit(): void {
+    this.http.get<Feedback[]>("http://localhost:4200/api/feedbacks")
+    .subscribe((feedbacks) => this.feedbacks = feedbacks);
+  }
 
 }
