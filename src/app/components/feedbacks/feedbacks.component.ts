@@ -17,7 +17,7 @@ export class FeedbacksComponent {
 
   constructor (private http : HttpClient) {}
 
-  ngOninit(): void {
+  ngOnInit(): void {
     this.http.get<Feedback[]>("http://localhost:4200/api/feedbacks")
     .subscribe((feedbacks) => this.feedbacks = feedbacks);
   }
